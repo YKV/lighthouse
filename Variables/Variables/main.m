@@ -10,7 +10,6 @@
 
 int main(int argc, const char * argv[]) {
     char inputsChars[255];
-    int indicator;
     char start[1];
     
     printf("Welcome to personal survey");
@@ -44,9 +43,13 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%@",newString);
         
         //check if the input string ends with ? or !
-        //if (inputString, sizeof(inputString),stdin)
         
-        //NSLog(@"Input was: %@", inputString);
+        if ([inputString hasSuffix:@"?"]) {
+            NSLog(@"I don't know");
+        }
+        else if ([inputString hasSuffix:@"!"]) {
+            NSLog(@"Whoa, calm down!");
+        }
         
     }
     
