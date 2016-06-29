@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Dice.h"
+#import "InputCollector.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -23,7 +24,27 @@ int main(int argc, const char * argv[]) {
         NSLog(@"die: %@", [d faceString]);
     }
 
+    //prompt the instruction to the user and ask for input
+    NSString *prompt = @"Please type roll if you want to roll dices, type quit if you want to quit the game: ";
     
+    //create an instance of InputCollector class
+    InputCollector *input = [[InputCollector alloc]init];
+    
+    //safe whatever user typed to variable userInput
+    NSString *userInput = [input inputForPrompt:prompt];
+    
+    //ask for the input till user type quit word
+    while (![userInput isEqualToString:@"quit"]) {
+        //if user typed roll randomize all dices again
+        if ([userInput isEqualToString:@"roll"]) {
+            //get a random face for every die in dies array
+            for (Dice *d in @[firstDice, secondDice, thirdDice, fourthDice, fifthDice]) {
+                NSLog(@"die: %@", [d faceString]);
+            }
+        }
+        
+        userInput = [input inputForPrompt:prompt];
+    }
     
     
     return 0;
