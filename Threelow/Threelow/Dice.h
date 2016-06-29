@@ -11,9 +11,8 @@
 @interface Dice : NSObject
 
 @property (nonatomic) NSInteger currentValue;
+@property (nonatomic, strong, readonly) NSString *faceValue;
 
-
-- (void)spinDice:(NSString*)face;
-- (NSString*)faceString;
+- (void)rollDice;
 
 @end
