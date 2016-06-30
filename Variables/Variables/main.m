@@ -24,7 +24,7 @@ int main(int argc, const char * argv[]) {
         NSString *inputString = [NSString stringWithUTF8String:inputsChars];
         
         
-        printf("Now enter a number from the following selections to perform the desired action:\n1:Upper \n2:Lower \n3:Number \n4:concatination \n5:replace space \n6:get an answer \n");
+        printf("Now enter a number from the following selections to perform the desired action:\n1:Upper \n2:Lower \n3:Number \n4:concatenation \n5:replace space \n6:get an answer \n");
         
         scanf("%d",&answer);
         
@@ -56,7 +56,7 @@ int main(int argc, const char * argv[]) {
             }
             case 4:
             {
-                //concatination
+                //concatenation
                 NSString *canadianizeString = [inputString stringByAppendingString:@", eh?"];
                 NSLog(@"%@",canadianizeString);
                 break;

@@ -20,17 +20,31 @@
 }
 
 - (void)insertObject:(NSObject *)newObject {
+    BinaryTreeNode *node = [[BinaryTreeNode alloc]init];
+    node.object = newObject;
+    
+    //figure out if newObject is bigger or smaller than root.object
+    if(newObject < _root.object) {
+        //if smaller, set root.leftChild = node
+        _root.leftChild = node;
+        
+    }
+    else {
+        //if bigger, set root.rightChild = node
+        _root.rightChild = node;
+    }
     
 }
 
 - (BinaryTreeNode *)find:(NSObject *)object {
-    if ([object isEqualTo:<#(nullable id)#>]) {
-        <#statements#>
-    }
+//    if ([object isEqualTo:<#(nullable id)#>]) {
+//        <#statements#>
+//    }
+    return nil;
 }
 
 - (BinaryTreeNode *)deleteObject:(NSObject *)object {
-    
+    return nil;
 }
 
 @end

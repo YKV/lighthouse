@@ -10,4 +10,13 @@
 
 @implementation BinaryTreeNode
 
+- (BOOL)isLeftChildParent {
+    if([self.parent.leftChild isEqual:self]) {
+        return YES;
+    }
+    else {
+        return NO;
+    }
+ }
+
 @end

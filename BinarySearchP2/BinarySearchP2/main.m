@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BinarySearchTree.h"
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
+    
+    BinarySearchTree *root = [[BinarySearchTree alloc]initWithObject:@4];
+    [root insertObject:@2];
+    
+    
     return 0;
 }
