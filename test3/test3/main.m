@@ -9,9 +9,12 @@
 #import <Foundation/Foundation.h>
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
+    
+    
+    NSMutableArray *arr = @[@1,@2,@1,@2,@3,@3];
+    NSMutableArray *arr2 = @[@5,@7,@8,@7,@6];
+ 
+    
+    
     return 0;
 }

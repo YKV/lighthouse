@@ -10,4 +10,21 @@
 
 @implementation Patient
 
+- (id)initWithPatientInfo:(NSString*)name age:(int) age {
+    self = [super init];
+    if (self) {
+        _name = name;
+        _age = age;
+    }
+    return self;
+}
+
+- (BOOL)hasName:(NSString *)input {
+    if (input) {
+        return YES;
+    }
+    return NO;
+}
+
+
 @end

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "446D8CCA1D2E92410006BEE5"
-               BuildableName = "test3"
-               BlueprintName = "test3"
-               ReferencedContainer = "container:test3.xcodeproj">
+               BlueprintIdentifier = "4452FA421D284A5000A5FC59"
+               BuildableName = "DoctorPatient"
+               BlueprintName = "DoctorPatient"
+               ReferencedContainer = "container:DoctorPatient.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "446D8CCA1D2E92410006BEE5"
-            BuildableName = "test3"
-            BlueprintName = "test3"
-            ReferencedContainer = "container:test3.xcodeproj">
+            BlueprintIdentifier = "4452FA421D284A5000A5FC59"
+            BuildableName = "DoctorPatient"
+            BlueprintName = "DoctorPatient"
+            ReferencedContainer = "container:DoctorPatient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "446D8CCA1D2E92410006BEE5"
-            BuildableName = "test3"
-            BlueprintName = "test3"
-            ReferencedContainer = "container:test3.xcodeproj">
+            BlueprintIdentifier = "4452FA421D284A5000A5FC59"
+            BuildableName = "DoctorPatient"
+            BlueprintName = "DoctorPatient"
+            ReferencedContainer = "container:DoctorPatient.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "446D8CCA1D2E92410006BEE5"
-            BuildableName = "test3"
-            BlueprintName = "test3"
-            ReferencedContainer = "container:test3.xcodeproj">
+            BlueprintIdentifier = "4452FA421D284A5000A5FC59"
+            BuildableName = "DoctorPatient"
+            BlueprintName = "DoctorPatient"
+            ReferencedContainer = "container:DoctorPatient.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

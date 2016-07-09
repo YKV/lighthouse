@@ -15,8 +15,14 @@
 @interface ViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *question;
 
-@property (strong, nonatomic) Player *player;
-@property (strong, nonatomic) GameModel *mathQuestion;
+
+
+@property (assign, nonatomic) Player *player;
+@property (strong, nonatomic) GameModel *gameModel;
+@property (nonatomic, assign) NSInteger *answer;
+
+
+//@property (strong, nonatomic) GameModel *mathAnswer;
 
 @property (strong, nonatomic) IBOutlet UIButton *submitButton;
 
@@ -30,6 +36,8 @@
 @property (strong, nonatomic) IBOutlet UIButton *button7;
 @property (strong, nonatomic) IBOutlet UIButton *button8;
 @property (strong, nonatomic) IBOutlet UIButton *button9;
+@property (strong, nonatomic) IBOutlet UILabel *scorePlayerOne;
+@property (strong, nonatomic) IBOutlet UILabel *scorePlayerTwo;
 
 @end
 

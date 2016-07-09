@@ -11,9 +11,10 @@
 
 @interface Line : NSObject
 
-@property CGPoint *startPoint;
-@property CGPoint *endPoint;
+@property CGPoint start;
+@property CGPoint end;
+@property (nonatomic) UIColor *currentColor;
 
-- (instancetype)initWithStart:(CGPoint)startPoint end:(CGPoint)endPoint;
+- (instancetype)initWithStart:(CGPoint)start end:(CGPoint)end color:(UIColor*)color;
 
 @end

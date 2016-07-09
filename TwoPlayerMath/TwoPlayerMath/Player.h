@@ -10,12 +10,13 @@
 
 @interface Player : NSObject
 
-@property (nonatomic, assign) NSInteger livesPlayer1;
-@property (nonatomic, assign) NSInteger livesPlayer2;
+@property (nonatomic, strong, readwrite) NSMutableArray *livesPlayer1;
+@property (nonatomic, strong, readwrite) NSMutableArray *livesPlayer2;
 @property (nonatomic, assign) NSInteger currentScore;
 
 
 - (NSInteger)loosingLife;
+- (NSInteger)randomPlayer;
 
 
 @end

@@ -10,14 +10,17 @@
 
 @interface GameModel : NSObject
 
-@property (nonatomic, strong) NSArray *arrayOfQuestions;
-@property (nonatomic, strong) NSArray *arrayOfAnswers;
-@property (nonatomic, assign) NSInteger currentPlayer1QuestionIndex;
-@property (nonatomic, assign) NSInteger currentPlayer2QuestionIndex;
+//@property (nonatomic, strong) NSArray *arrayOfQuestions;
+//@property (nonatomic, strong) NSArray *arrayOfAnswers;
+//@property (nonatomic, assign) NSInteger currentPlayer1QuestionIndex;
+//@property (nonatomic, assign) NSInteger currentPlayer2QuestionIndex;
+
+@property (nonatomic, strong) NSArray *buttonsArray;
+@property (nonatomic, assign) NSInteger answer;
 
 
-
-- (NSString *)generateQuestion;
+- (NSInteger)generateNumber;
+- (NSInteger)calculator:(NSInteger)x y:(NSInteger)y;
 
 
 @end

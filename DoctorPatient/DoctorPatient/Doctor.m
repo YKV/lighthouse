@@ -10,4 +10,21 @@
 
 @implementation Doctor
 
+- (id)initWithDoctorInfo:(NSString *)name specialization:(NSString *)specialization {
+    self = [super init];
+    if (self) {
+        _name = name;
+        _specialization = specialization;
+    }
+    return self;
+}
+
+//check if Doctor has name by user input
+- (BOOL)hasName:(NSString *)input {
+    if (input) {
+        return YES;
+    }
+    return NO;
+}
+
 @end

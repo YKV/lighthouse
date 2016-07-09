@@ -10,4 +10,11 @@
 
 @interface Doctor : NSObject
 
+@property NSString *name;
+@property NSString *specialization;
+
+- (BOOL)hasName:(NSString *)input;
+- (id)initWithDoctorInfo:(NSString *)name specialization:(NSString *)specialization;
+- (BOOL)doesPatientVisitDoctor:(NSString *)
+
 @end

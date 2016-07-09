@@ -15,7 +15,7 @@
 		446D8D871D2FF0900006BEE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446D8D851D2FF0900006BEE5 /* LaunchScreen.storyboard */; };
 		446D8D921D2FF0900006BEE5 /* FingerPaintMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 446D8D911D2FF0900006BEE5 /* FingerPaintMeTests.m */; };
 		446D8D9E1D300B350006BEE5 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 446D8D9D1D300B350006BEE5 /* Line.m */; };
-		446D8DA11D300D3F0006BEE5 /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 446D8DA01D300D3F0006BEE5 /* PaintView.m */; };
+		446D8DA41D301C220006BEE5 /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 446D8DA31D301C220006BEE5 /* PaintView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +44,8 @@
 		446D8D931D2FF0900006BEE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		446D8D9C1D300B350006BEE5 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
 		446D8D9D1D300B350006BEE5 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
-		446D8D9F1D300D3F0006BEE5 /* PaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintView.h; sourceTree = "<group>"; };
-		446D8DA01D300D3F0006BEE5 /* PaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintView.m; sourceTree = "<group>"; };
+		446D8DA21D301C220006BEE5 /* PaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintView.h; sourceTree = "<group>"; };
+		446D8DA31D301C220006BEE5 /* PaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 				446D8D771D2FF0900006BEE5 /* Supporting Files */,
 				446D8D9C1D300B350006BEE5 /* Line.h */,
 				446D8D9D1D300B350006BEE5 /* Line.m */,
-				446D8D9F1D300D3F0006BEE5 /* PaintView.h */,
-				446D8DA01D300D3F0006BEE5 /* PaintView.m */,
+				446D8DA21D301C220006BEE5 /* PaintView.h */,
+				446D8DA31D301C220006BEE5 /* PaintView.m */,
 			);
 			path = FingerPaintMe;
 			sourceTree = "<group>";
@@ -222,9 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				446D8D7F1D2FF0900006BEE5 /* ViewController.m in Sources */,
-				446D8DA11D300D3F0006BEE5 /* PaintView.m in Sources */,
 				446D8D9E1D300B350006BEE5 /* Line.m in Sources */,
 				446D8D7C1D2FF0900006BEE5 /* AppDelegate.m in Sources */,
+				446D8DA41D301C220006BEE5 /* PaintView.m in Sources */,
 				446D8D791D2FF0900006BEE5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

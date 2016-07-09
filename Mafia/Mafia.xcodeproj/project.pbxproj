@@ -155,6 +155,9 @@
 		446D8C611D2DBB4E0006BEE5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Yevhen Kim";
 				TargetAttributes = {

@@ -1,5 +1,5 @@
 //
-//  Paint.h
+//  PaintView.h
 //  FingerPaintMe
 //
 //  Created by Yevhen Kim on 2016-07-08.
@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface PaintView : UIView
+
+@property (strong, nonatomic) UIColor *lineColor;
 
 @end

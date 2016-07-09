@@ -7,11 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Doctor.h"
+#import "Patient.h"
+#import "InputCollector.h"
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
+    
+    Patient *patient = [[Patient alloc]init];
+    
+    NSString *prompt = @"\nDo you have a healthcard:(y/n)";
+    InputCollector *input = [[InputCollector alloc]init];
+    
+    NSString *patientInput = [input inputForPrompt: prompt];
+    
     return 0;
 }

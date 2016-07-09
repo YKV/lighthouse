@@ -10,4 +10,11 @@
 
 @interface Patient : NSObject
 
+@property int age;
+@property NSString *name;
+@property (nonatomic, weak) NSString *doctor;
+
+- (BOOL)hasName:(NSString *)input ;
+- (id)initWithPatientInfo:(NSString*)name age:(int) age;
+
 @end
