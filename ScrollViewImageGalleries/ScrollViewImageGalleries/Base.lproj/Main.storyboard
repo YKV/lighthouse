@@ -20,6 +20,13 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="itP-2k-lrT">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="4eS-Id-7em">
+                                <rect key="frame" x="275" y="543" width="50" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="J7h-l4-MGB"/>
+                                    <constraint firstAttribute="height" constant="37" id="Xqf-ff-i3V"/>
+                                </constraints>
+                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -27,10 +34,13 @@
                             <constraint firstItem="itP-2k-lrT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4jz-MM-ven"/>
                             <constraint firstItem="itP-2k-lrT" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="IJ8-7V-cQh"/>
                             <constraint firstAttribute="trailing" secondItem="itP-2k-lrT" secondAttribute="trailing" id="JI8-DA-jOA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4eS-Id-7em" secondAttribute="bottom" constant="20" id="QtK-KK-dZn"/>
+                            <constraint firstItem="4eS-Id-7em" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hfN-bo-isO"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gc4-nz-306"/>
                     <connections>
+                        <outlet property="pageController" destination="4eS-Id-7em" id="WmL-Fq-Tm2"/>
                         <outlet property="scrollView" destination="itP-2k-lrT" id="k9C-r5-Pff"/>
                         <segue destination="Lht-aE-R3y" kind="show" identifier="showDetails" id="pIy-j6-G5e"/>
                     </connections>

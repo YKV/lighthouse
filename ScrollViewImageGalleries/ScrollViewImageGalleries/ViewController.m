@@ -11,6 +11,7 @@
 
 @interface ViewController () <UIScrollViewDelegate, UIGestureRecognizerDelegate>
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (weak, nonatomic) IBOutlet UIPageControl *pageController;
 
 @property (strong, nonatomic) UIImageView *firstView;
 @property (strong, nonatomic) UIImageView *secondView;
@@ -27,6 +28,10 @@
     [super viewDidAppear:animated];
     
     self.scrollView.delegate = self;
+    
+    self.pageController.numberOfPages = 3;
+    self.pageController.currentPage = 0;
+    self.pageController.backgroundColor = [UIColor greenColor];
     
     //create content view to hold all additional subviews
     UIView *contentView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.scrollView.frame), CGRectGetHeight(self.scrollView.frame))];
@@ -96,6 +101,12 @@
         details.detailImage = ((UIImageView*)sender).image;
                 
     }
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    CGFloat rolX = self.scrollView.contentOffset.x;
+    int pageNumber = rolX / CGRectGetWidth(self.scrollView.frame);
+    self.pageController.currentPage = pageNumber;
 }
 
 @end
