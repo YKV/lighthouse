@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyScrollView : UIView
+@interface MyScrollView : UIView<UIGestureRecognizerDelegate>
+
+@property (nonatomic) CGSize contentSize;
+@property (nonatomic, strong) UIPanGestureRecognizer *panGesture;
+
+- (void)preparePanGestureRecognizer;
 
 @end
