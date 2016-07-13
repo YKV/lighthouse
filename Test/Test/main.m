@@ -1,8 +1,8 @@
 //
 //  main.m
-//  Test
+//  test
 //
-//  Created by Yevhen Kim on 2016-07-01.
+//  Created by Yevhen Kim on 2016-07-13.
 //  Copyright © 2016 Yevhen Kim. All rights reserved.
 //
 
