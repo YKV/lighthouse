@@ -10,12 +10,15 @@
 
 @implementation Song
 
-- (instancetype)initWithImage:(NSString*)image title:(NSString*)title description:(NSString*)description {
+- (instancetype)initWithImage:(NSString*)image
+                        title:(NSString*)title
+                       artist:(NSString*)artist {
+    
     self = [super init];
     if (self) {
-        _postImage = image;
-        _postTitle = title;
-        _postDescription = description;
+        _image  = image;
+        _title  = title;
+        _artist = artist;
     }
     return self;
 }

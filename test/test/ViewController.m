@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "SecondViewController.h"
 
-@interface ViewController ()
+@interface ViewController ()<SecondDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
 
@@ -22,6 +24,15 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    SecondViewController *second = [segue destinationViewController];
+    second.delegate = self;
+}
+
+- (void)didTyped:(NSString *)string {
+    self.label.text = string;
 }
 
 @end

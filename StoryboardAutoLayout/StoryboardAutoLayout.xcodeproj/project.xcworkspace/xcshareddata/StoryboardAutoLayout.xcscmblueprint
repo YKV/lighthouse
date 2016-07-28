@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6C64393C61C9F5B8455E488F7413B9595736136E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1F086810B90A8957D39A9FB996900B73C9CA990E" : 0,
+    "6C64393C61C9F5B8455E488F7413B9595736136E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "780E9ECD-1978-4BAA-B300-E8B35ACF0469",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1F086810B90A8957D39A9FB996900B73C9CA990E" : "",
+    "6C64393C61C9F5B8455E488F7413B9595736136E" : "StoryboardAutoLayout\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "StoryboardAutoLayout",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "StoryboardAutoLayout.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:YKV\/lighthouse.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1F086810B90A8957D39A9FB996900B73C9CA990E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:YKV\/Storyboard.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6C64393C61C9F5B8455E488F7413B9595736136E"
+    }
+  ]
+}

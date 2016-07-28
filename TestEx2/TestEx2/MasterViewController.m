@@ -7,8 +7,13 @@
 //
 
 #import "MasterViewController.h"
+#import "Song.h"
+#import "TableViewCell.h"
+
 
 @interface MasterViewController ()
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) NSMutableArray *data;
 
 @end
 
@@ -16,12 +21,38 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    Song 
+    
+    self.data = [Model populateObjects];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - Segue
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"showDetails"]) {
+        NSIndexPath *selectedPath = [self.tableView indexPathForSelectedRow];
+        Song *cellData = self.data[selectedPath.row];
+        DetailViewController *details = (DetailViewController *)[segue destinationViewController];
+        [details setDetailItem:cellData];
+    }
+}
+
+#pragma mark - Required Table View Methods for Data Source
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.data.count;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+    Song *cellData = self.data[indexPath.row];
+    
+    cell.cellImage.image = [UIImage imageNamed:cellData.image ];
+    cell.cellTitle.text = cellData.title;
+    cell.cellSummary.text = cellData.summary;
+    
+    return cell;
 }
 
 @end

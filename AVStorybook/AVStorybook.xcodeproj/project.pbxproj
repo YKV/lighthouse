@@ -14,6 +14,8 @@
 		446D90841D3964E10006BEE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446D90831D3964E10006BEE5 /* Assets.xcassets */; };
 		446D90871D3964E10006BEE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446D90851D3964E10006BEE5 /* LaunchScreen.storyboard */; };
 		446D90921D3964E10006BEE5 /* AVStorybookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 446D90911D3964E10006BEE5 /* AVStorybookTests.m */; };
+		446D909E1D3966D80006BEE5 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446D909D1D3966D80006BEE5 /* PageContentViewController.m */; };
+		446D90A11D3983290006BEE5 /* Rocords.m in Sources */ = {isa = PBXBuildFile; fileRef = 446D90A01D3983290006BEE5 /* Rocords.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		446D908D1D3964E10006BEE5 /* AVStorybookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVStorybookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		446D90911D3964E10006BEE5 /* AVStorybookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVStorybookTests.m; sourceTree = "<group>"; };
 		446D90931D3964E10006BEE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		446D909C1D3966D80006BEE5 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		446D909D1D3966D80006BEE5 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		446D909F1D3983290006BEE5 /* Rocords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rocords.h; sourceTree = "<group>"; };
+		446D90A01D3983290006BEE5 /* Rocords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rocords.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,10 @@
 				446D90851D3964E10006BEE5 /* LaunchScreen.storyboard */,
 				446D90881D3964E10006BEE5 /* Info.plist */,
 				446D90771D3964E10006BEE5 /* Supporting Files */,
+				446D909C1D3966D80006BEE5 /* PageContentViewController.h */,
+				446D909D1D3966D80006BEE5 /* PageContentViewController.m */,
+				446D909F1D3983290006BEE5 /* Rocords.h */,
+				446D90A01D3983290006BEE5 /* Rocords.m */,
 			);
 			path = AVStorybook;
 			sourceTree = "<group>";
@@ -212,6 +222,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				446D907F1D3964E10006BEE5 /* ViewController.m in Sources */,
+				446D909E1D3966D80006BEE5 /* PageContentViewController.m in Sources */,
+				446D90A11D3983290006BEE5 /* Rocords.m in Sources */,
 				446D907C1D3964E10006BEE5 /* AppDelegate.m in Sources */,
 				446D90791D3964E10006BEE5 /* main.m in Sources */,
 			);

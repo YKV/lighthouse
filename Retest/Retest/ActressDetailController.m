@@ -7,6 +7,7 @@
 //
 
 #import "ActressDetailController.h"
+#import "Actress.h"
 
 @interface ActressDetailController ()
 
@@ -16,22 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self configureActressView];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)configureActressView {
+    self.actressName.text = self.actress.actressName;
+    self.actressImage.image = [UIImage imageNamed:self.actress.imageName];
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

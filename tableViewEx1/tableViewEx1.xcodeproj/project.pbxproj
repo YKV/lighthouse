@@ -30,7 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		446D8FC31D37BE820006BEE5 /* TestPart2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPart2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		446D8FC31D37BE820006BEE5 /* tableViewEx1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableViewEx1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		446D8FC71D37BE820006BEE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		446D8FC91D37BE820006BEE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		446D8FCA1D37BE820006BEE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		446D8FD21D37BE820006BEE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		446D8FD51D37BE820006BEE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		446D8FD71D37BE820006BEE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		446D8FDC1D37BE830006BEE5 /* TestPart2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPart2.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		446D8FDC1D37BE830006BEE5 /* tableViewEx1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewEx1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		446D8FE01D37BE830006BEE5 /* tableViewEx1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableViewEx1Tests.m; sourceTree = "<group>"; };
 		446D8FE21D37BE830006BEE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		446D8FEE1D37C3740006BEE5 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
@@ -81,8 +81,8 @@
 		446D8FC41D37BE820006BEE5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				446D8FC31D37BE820006BEE5 /* TestPart2.app */,
-				446D8FDC1D37BE830006BEE5 /* TestPart2.xctest */,
+				446D8FC31D37BE820006BEE5 /* tableViewEx1.app */,
+				446D8FDC1D37BE830006BEE5 /* tableViewEx1.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,9 +153,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		446D8FC21D37BE820006BEE5 /* TestPart2 */ = {
+		446D8FC21D37BE820006BEE5 /* tableViewEx1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 446D8FE51D37BE830006BEE5 /* Build configuration list for PBXNativeTarget "TestPart2" */;
+			buildConfigurationList = 446D8FE51D37BE830006BEE5 /* Build configuration list for PBXNativeTarget "tableViewEx1" */;
 			buildPhases = (
 				446D8FBF1D37BE820006BEE5 /* Sources */,
 				446D8FC01D37BE820006BEE5 /* Frameworks */,
@@ -165,14 +165,14 @@
 			);
 			dependencies = (
 			);
-			name = TestPart2;
+			name = tableViewEx1;
 			productName = tableViewEx1;
-			productReference = 446D8FC31D37BE820006BEE5 /* TestPart2.app */;
+			productReference = 446D8FC31D37BE820006BEE5 /* tableViewEx1.app */;
 			productType = "com.apple.product-type.application";
 		};
-		446D8FDB1D37BE830006BEE5 /* TestPart2Tests */ = {
+		446D8FDB1D37BE830006BEE5 /* tableViewEx1Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 446D8FE81D37BE830006BEE5 /* Build configuration list for PBXNativeTarget "TestPart2Tests" */;
+			buildConfigurationList = 446D8FE81D37BE830006BEE5 /* Build configuration list for PBXNativeTarget "tableViewEx1Tests" */;
 			buildPhases = (
 				446D8FD81D37BE830006BEE5 /* Sources */,
 				446D8FD91D37BE830006BEE5 /* Frameworks */,
@@ -183,9 +183,9 @@
 			dependencies = (
 				446D8FDE1D37BE830006BEE5 /* PBXTargetDependency */,
 			);
-			name = TestPart2Tests;
+			name = tableViewEx1Tests;
 			productName = tableViewEx1Tests;
-			productReference = 446D8FDC1D37BE830006BEE5 /* TestPart2.xctest */;
+			productReference = 446D8FDC1D37BE830006BEE5 /* tableViewEx1.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 446D8FBE1D37BE820006BEE5 /* Build configuration list for PBXProject "TestPart2" */;
+			buildConfigurationList = 446D8FBE1D37BE820006BEE5 /* Build configuration list for PBXProject "tableViewEx1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -219,8 +219,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				446D8FC21D37BE820006BEE5 /* TestPart2 */,
-				446D8FDB1D37BE830006BEE5 /* TestPart2Tests */,
+				446D8FC21D37BE820006BEE5 /* tableViewEx1 */,
+				446D8FDB1D37BE830006BEE5 /* tableViewEx1Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,7 +272,7 @@
 /* Begin PBXTargetDependency section */
 		446D8FDE1D37BE830006BEE5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 446D8FC21D37BE820006BEE5 /* TestPart2 */;
+			target = 446D8FC21D37BE820006BEE5 /* tableViewEx1 */;
 			targetProxy = 446D8FDD1D37BE830006BEE5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -386,7 +386,7 @@
 				INFOPLIST_FILE = tableViewEx1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yevhenkim.tableViewEx1;
-				PRODUCT_NAME = TestPart2;
+				PRODUCT_NAME = tableViewEx1;
 			};
 			name = Debug;
 		};
@@ -397,7 +397,7 @@
 				INFOPLIST_FILE = tableViewEx1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yevhenkim.tableViewEx1;
-				PRODUCT_NAME = TestPart2;
+				PRODUCT_NAME = tableViewEx1;
 			};
 			name = Release;
 		};
@@ -408,8 +408,8 @@
 				INFOPLIST_FILE = tableViewEx1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yevhenkim.tableViewEx1Tests;
-				PRODUCT_NAME = TestPart2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestPart2.app/TestPart2";
+				PRODUCT_NAME = tableViewEx1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableViewEx1.app/tableViewEx1";
 			};
 			name = Debug;
 		};
@@ -420,15 +420,15 @@
 				INFOPLIST_FILE = tableViewEx1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yevhenkim.tableViewEx1Tests;
-				PRODUCT_NAME = TestPart2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestPart2.app/TestPart2";
+				PRODUCT_NAME = tableViewEx1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tableViewEx1.app/tableViewEx1";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		446D8FBE1D37BE820006BEE5 /* Build configuration list for PBXProject "TestPart2" */ = {
+		446D8FBE1D37BE820006BEE5 /* Build configuration list for PBXProject "tableViewEx1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				446D8FE31D37BE830006BEE5 /* Debug */,
@@ -437,7 +437,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		446D8FE51D37BE830006BEE5 /* Build configuration list for PBXNativeTarget "TestPart2" */ = {
+		446D8FE51D37BE830006BEE5 /* Build configuration list for PBXNativeTarget "tableViewEx1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				446D8FE61D37BE830006BEE5 /* Debug */,
@@ -446,7 +446,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		446D8FE81D37BE830006BEE5 /* Build configuration list for PBXNativeTarget "TestPart2Tests" */ = {
+		446D8FE81D37BE830006BEE5 /* Build configuration list for PBXNativeTarget "tableViewEx1Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				446D8FE91D37BE830006BEE5 /* Debug */,

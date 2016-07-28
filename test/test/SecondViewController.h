@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol SecondDelegate <NSObject>
+
+- (void)didTyped:(NSString *)string;
+
+@end
+
 @interface SecondViewController : UIViewController
+
+@property (nonatomic, weak) id<SecondDelegate> delegate;
 
 @end

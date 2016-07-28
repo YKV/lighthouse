@@ -10,4 +10,9 @@
 
 @interface Actress : NSObject
 
+@property (nonatomic, copy) NSString *actressName;
+@property (nonatomic, copy) NSString *imageName;
+
+- (instancetype)initWithImageName:(NSString *)imageName andActressName:(NSString *)actressName;
+
 @end

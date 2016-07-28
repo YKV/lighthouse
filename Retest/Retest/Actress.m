@@ -10,4 +10,15 @@
 
 @implementation Actress
 
+- (instancetype)initWithImageName:(NSString *)imageName
+                   andActressName:(NSString *)actressName {
+    
+    self = [super init];
+    if (self) {
+        _imageName   = imageName;
+        _actressName = actressName;
+    }
+    return self;
+}
+
 @end
