@@ -12,13 +12,13 @@
 
 -(instancetype)initWithImage:(NSString *)image
                        title:(NSString *)title
-                     summary:(NSString *)summary {
+                      artist:(NSString *)artist {
     
     self = [super init];
     if (self) {
-        _image = image;
-        _title = title;
-        _summary = summary;
+        _image  = image;
+        _title  = title;
+        _artist = artist;
     }
     
     return self;

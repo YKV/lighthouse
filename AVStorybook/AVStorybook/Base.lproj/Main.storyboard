@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3RI-ZD-7vk">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
     </dependencies>
     <scenes>
+        <!--Page View Controller-->
+        <scene sceneID="AOL-3A-dsd">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="3RI-ZD-7vk" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" id="L8u-pA-27D"/>
+                    </connections>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5G-GT-CWf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-197" y="344"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +29,70 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5h5-ZV-fOk">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Plg-3N-vBU">
+                                <rect key="frame" x="188" y="505" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="W1Q-5n-xCM"/>
+                                    <constraint firstAttribute="height" constant="40" id="rRF-jo-kV4"/>
+                                </constraints>
+                                <state key="normal" image="ic_mic_2x"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yla-Tu-UeL">
+                                <rect key="frame" x="280" y="505" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="CWp-JC-ZfE"/>
+                                    <constraint firstAttribute="width" constant="40" id="Ois-W9-TaB"/>
+                                </constraints>
+                                <state key="normal" image="ic_photo_camera_2x"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xlK-wv-bgt">
+                                <rect key="frame" x="373" y="505" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="O4s-MZ-7OU"/>
+                                    <constraint firstAttribute="height" constant="40" id="sMT-7q-qzX"/>
+                                </constraints>
+                                <state key="normal" image="ic_fiber_manual_record_2x"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xlK-wv-bgt" firstAttribute="leading" secondItem="5h5-ZV-fOk" secondAttribute="trailing" constant="-227" id="6PL-ze-wMd"/>
+                            <constraint firstItem="5h5-ZV-fOk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="9Ec-8v-lqZ"/>
+                            <constraint firstItem="5h5-ZV-fOk" firstAttribute="leading" secondItem="Plg-3N-vBU" secondAttribute="trailing" constant="-228" id="9VL-Bo-sPK"/>
+                            <constraint firstItem="5h5-ZV-fOk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DEK-gL-0y7"/>
+                            <constraint firstItem="Yla-Tu-UeL" firstAttribute="centerX" secondItem="5h5-ZV-fOk" secondAttribute="centerX" id="DjB-wU-WrF"/>
+                            <constraint firstItem="xlK-wv-bgt" firstAttribute="top" secondItem="5h5-ZV-fOk" secondAttribute="bottom" constant="-95" id="K4J-3K-yb5"/>
+                            <constraint firstItem="Yla-Tu-UeL" firstAttribute="top" secondItem="5h5-ZV-fOk" secondAttribute="bottom" constant="-95" id="ae4-MA-7GH"/>
+                            <constraint firstItem="xlK-wv-bgt" firstAttribute="leading" secondItem="Yla-Tu-UeL" secondAttribute="trailing" constant="53" id="gdZ-kZ-ZL7"/>
+                            <constraint firstItem="5h5-ZV-fOk" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="gnp-aw-3Dj"/>
+                            <constraint firstAttribute="trailing" secondItem="5h5-ZV-fOk" secondAttribute="trailing" id="i8U-2c-NbZ"/>
+                            <constraint firstItem="Yla-Tu-UeL" firstAttribute="leading" secondItem="Plg-3N-vBU" secondAttribute="trailing" constant="52" id="mRb-Mo-vM9"/>
+                            <constraint firstItem="Plg-3N-vBU" firstAttribute="top" secondItem="5h5-ZV-fOk" secondAttribute="bottom" constant="-95" id="zVL-u9-CoI"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="OQh-gL-mFq">
+                        <leftBarButtonItems>
+                            <barButtonItem title="Item" id="Qld-qB-lod"/>
+                            <barButtonItem title="Item" id="DR1-RJ-Rmk"/>
+                        </leftBarButtonItems>
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="qiK-ZJ-ONr"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="5h5-ZV-fOk" id="rNU-DI-PGp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="581" y="370"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ic_fiber_manual_record_2x" width="48" height="48"/>
+        <image name="ic_mic_2x" width="48" height="48"/>
+        <image name="ic_photo_camera_2x" width="48" height="48"/>
+    </resources>
 </document>

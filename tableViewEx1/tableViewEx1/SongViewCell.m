@@ -8,7 +8,7 @@
 
 #import "SongViewCell.h"
 
-@implementation PostViewCell
+@implementation SongViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];

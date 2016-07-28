@@ -13,10 +13,10 @@
 - (instancetype)initWithTitle:(NSString*)title description:(NSString*)taskDescription number:(NSString*)priority completed:(BOOL)isCompletedIndicator {
     self = [super init];
     if (self) {
-        self.title = title;
-        self.taskDescription = taskDescription;
-        self.priority = priority;
-        self.isCompletedIndicator = isCompletedIndicator;
+        _title = title;
+        _taskDescription = taskDescription;
+        _priority = priority;
+        _isCompletedIndicator = isCompletedIndicator;
     }
     return self;
 }

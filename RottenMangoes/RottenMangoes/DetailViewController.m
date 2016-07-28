@@ -9,6 +9,7 @@
 #import "DetailViewController.h"
 #import "Movie.h"
 #import "WebViewController.h"
+#import "MapViewController.h"
 
 @interface DetailViewController ()
 
@@ -36,6 +37,10 @@
     if ([segue.identifier isEqualToString:@"showInBrowser"]) {
         WebViewController *webController = (WebViewController *)[segue destinationViewController];
         webController.movieURL = [NSURL URLWithString:self.movie.link];
+    }
+    else if ([segue.identifier isEqualToString:@"showTheatersOnMap"]) {
+        MapViewController *mapController = (MapViewController *)[segue destinationViewController];
+        mapController.movie = self.movie;
     }
 }
 

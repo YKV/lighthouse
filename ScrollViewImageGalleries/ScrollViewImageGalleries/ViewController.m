@@ -31,7 +31,8 @@
     
     self.pageController.numberOfPages = 3;
     self.pageController.currentPage = 0;
-    self.pageController.backgroundColor = [UIColor greenColor];
+    self.pageController.backgroundColor = [UIColor grayColor];
+    self.pageController.opaque = 0.3;
     
     //create content view to hold all additional subviews
     UIView *contentView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.scrollView.frame), CGRectGetHeight(self.scrollView.frame))];

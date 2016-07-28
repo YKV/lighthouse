@@ -15,6 +15,8 @@
 		446D8EB11D3545660006BEE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446D8EB01D3545660006BEE5 /* Assets.xcassets */; };
 		446D8EB41D3545660006BEE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446D8EB21D3545660006BEE5 /* LaunchScreen.storyboard */; };
 		446D8EBF1D3545660006BEE5 /* EveryDoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 446D8EBE1D3545660006BEE5 /* EveryDoTests.m */; };
+		446D8F081D356ACB0006BEE5 /* TaskModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 446D8F071D356ACB0006BEE5 /* TaskModel.m */; };
+		446D8F0B1D356B230006BEE5 /* TaskViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 446D8F0A1D356B230006BEE5 /* TaskViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,10 @@
 		446D8EBA1D3545660006BEE5 /* EveryDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EveryDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		446D8EBE1D3545660006BEE5 /* EveryDoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EveryDoTests.m; sourceTree = "<group>"; };
 		446D8EC01D3545660006BEE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		446D8F061D356ACB0006BEE5 /* TaskModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskModel.h; sourceTree = "<group>"; };
+		446D8F071D356ACB0006BEE5 /* TaskModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskModel.m; sourceTree = "<group>"; };
+		446D8F091D356B230006BEE5 /* TaskViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskViewCell.h; sourceTree = "<group>"; };
+		446D8F0A1D356B230006BEE5 /* TaskViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,10 @@
 				446D8EB21D3545660006BEE5 /* LaunchScreen.storyboard */,
 				446D8EB51D3545660006BEE5 /* Info.plist */,
 				446D8EA11D3545660006BEE5 /* Supporting Files */,
+				446D8F061D356ACB0006BEE5 /* TaskModel.h */,
+				446D8F071D356ACB0006BEE5 /* TaskModel.m */,
+				446D8F091D356B230006BEE5 /* TaskViewCell.h */,
+				446D8F0A1D356B230006BEE5 /* TaskViewCell.m */,
 			);
 			path = EveryDo;
 			sourceTree = "<group>";
@@ -218,8 +228,10 @@
 			files = (
 				446D8EA61D3545660006BEE5 /* AppDelegate.m in Sources */,
 				446D8EA91D3545660006BEE5 /* MasterViewController.m in Sources */,
+				446D8F081D356ACB0006BEE5 /* TaskModel.m in Sources */,
 				446D8EA31D3545660006BEE5 /* main.m in Sources */,
 				446D8EAC1D3545660006BEE5 /* DetailViewController.m in Sources */,
+				446D8F0B1D356B230006BEE5 /* TaskViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +420,7 @@
 				446D8EC51D3545660006BEE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		446D8EC61D3545660006BEE5 /* Build configuration list for PBXNativeTarget "EveryDoTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +429,7 @@
 				446D8EC81D3545660006BEE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

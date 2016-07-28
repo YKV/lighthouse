@@ -12,11 +12,11 @@
 
 @property (nonatomic, copy) NSString *image;
 @property (nonatomic, copy) NSString *title;
-@property (nonatomic, copy) NSString *summary;
+@property (nonatomic, copy) NSString *artist;
 
 -(instancetype)initWithImage:(NSString *)image
                        title:(NSString *)title
-                     summary:(NSString *)summary;
+                      artist:(NSString *)artist;
 
 + (NSMutableArray *)populateObjects;
 

@@ -10,4 +10,8 @@
 
 @interface TaskViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *title;
+@property (weak, nonatomic) IBOutlet UILabel *taskDescription;
+@property (weak, nonatomic) IBOutlet UILabel *priority;
+
 @end
