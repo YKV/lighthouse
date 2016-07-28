@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class Actress;
+
 @interface ActressDetailController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *actressImage;
+@property (weak, nonatomic) IBOutlet UILabel *actressName;
+
+@property (strong, nonatomic) Actress *actress;
 
 @end

@@ -10,4 +10,9 @@
 
 @implementation CoverFlowLayout
 
+- (void)prepareLayout {
+    [super prepareLayout];
+    
+}
+
 @end

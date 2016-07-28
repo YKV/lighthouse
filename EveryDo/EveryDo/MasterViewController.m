@@ -12,6 +12,8 @@
 @interface MasterViewController ()
 
 @property NSMutableArray *objects;
+
+
 @end
 
 @implementation MasterViewController
@@ -23,6 +25,7 @@
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated {

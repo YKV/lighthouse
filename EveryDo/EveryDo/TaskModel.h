@@ -10,4 +10,12 @@
 
 @interface TaskModel : NSObject
 
+@property (nonatomic, strong) NSString *title;
+@property (nonatomic, readwrite) NSString *taskDescription;
+@property (nonatomic, readwrite) NSNumber *priorityNumber;
+@property (nonatomic) BOOL isCompletedIndicator;
+
+
+- (instancetype)initWithTitle:(NSString*)title description:(NSString*)taskDescription number:(NSNumber*)priorityNumber completed:(BOOL)isCompletedIndicator;
+
 @end

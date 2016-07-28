@@ -9,14 +9,17 @@
 #import "SecondViewController.h"
 
 @interface SecondViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
 @implementation SecondViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
     // Do any additional setup after loading the view.
+    [self.delegate didTyped:self.textField.text];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,5 +36,7 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+
 
 @end

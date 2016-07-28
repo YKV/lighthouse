@@ -28,7 +28,7 @@
 //    self.navigationItem.rightBarButtonItem = addButton;
 //    
     //create an instance of url
-    NSURL *moviesURL = [NSURL URLWithString:@"http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json?apikey=55gey28y6ygcr8fjy4ty87ek&page_limit=50"];
+    NSURL *moviesURL = [NSURL URLWithString:@"http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json?apikey=55gey28y6ygcr8fjy4ty87ek&page_limit=50&country=CA"];
     //get the data from from url in json format
     NSData *jsonData = [NSData dataWithContentsOfURL:moviesURL];
     
@@ -44,7 +44,7 @@
     self.movies = [NSMutableArray array];
     
     //create an array for key movies
-    NSArray *moviesArray = [dataDictionary objectForKey:@"movies"];
+    NSArray *moviesArray = dataDictionary[@"movies"];
     
     //loop through movies array
     for (NSDictionary *movieDictionary in moviesArray) {

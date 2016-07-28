@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class Movie;
+
 @interface MapViewController : UIViewController
+
+@property (strong, nonatomic) Movie *movie;
 
 @end

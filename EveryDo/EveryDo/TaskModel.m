@@ -10,4 +10,15 @@
 
 @implementation TaskModel
 
+- (instancetype)initWithTitle:(NSString*)title description:(NSString*)taskDescription number:(NSNumber*)priorityNumber completed:(BOOL)isCompletedIndicator {
+    self = [super init];
+    if (self) {
+        self.title = title;
+        self.taskDescription = taskDescription;
+        self.priorityNumber = priorityNumber;
+        self.isCompletedIndicator = NO;
+    }
+    return self;
+}
+
 @end

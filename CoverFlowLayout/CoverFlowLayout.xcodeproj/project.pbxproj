@@ -14,6 +14,8 @@
 		449D42A31D3C6C8D00EAE5AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449D42A21D3C6C8D00EAE5AB /* Assets.xcassets */; };
 		449D42A61D3C6C8D00EAE5AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449D42A41D3C6C8D00EAE5AB /* LaunchScreen.storyboard */; };
 		449D42B11D3C6C8D00EAE5AB /* CoverFlowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449D42B01D3C6C8D00EAE5AB /* CoverFlowLayoutTests.m */; };
+		449D42BD1D3C6D3800EAE5AB /* CustomCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449D42BC1D3C6D3800EAE5AB /* CustomCollectionViewController.m */; };
+		449D42C01D3C6E6100EAE5AB /* CoverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 449D42BF1D3C6E6100EAE5AB /* CoverFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		449D42AC1D3C6C8D00EAE5AB /* CoverFlowLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoverFlowLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		449D42B01D3C6C8D00EAE5AB /* CoverFlowLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoverFlowLayoutTests.m; sourceTree = "<group>"; };
 		449D42B21D3C6C8D00EAE5AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449D42BB1D3C6D3800EAE5AB /* CustomCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewController.h; sourceTree = "<group>"; };
+		449D42BC1D3C6D3800EAE5AB /* CustomCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewController.m; sourceTree = "<group>"; };
+		449D42BE1D3C6E6100EAE5AB /* CoverFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverFlowLayout.h; sourceTree = "<group>"; };
+		449D42BF1D3C6E6100EAE5AB /* CoverFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,10 @@
 				449D42A41D3C6C8D00EAE5AB /* LaunchScreen.storyboard */,
 				449D42A71D3C6C8D00EAE5AB /* Info.plist */,
 				449D42961D3C6C8D00EAE5AB /* Supporting Files */,
+				449D42BB1D3C6D3800EAE5AB /* CustomCollectionViewController.h */,
+				449D42BC1D3C6D3800EAE5AB /* CustomCollectionViewController.m */,
+				449D42BE1D3C6E6100EAE5AB /* CoverFlowLayout.h */,
+				449D42BF1D3C6E6100EAE5AB /* CoverFlowLayout.m */,
 			);
 			path = CoverFlowLayout;
 			sourceTree = "<group>";
@@ -211,6 +221,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449D42BD1D3C6D3800EAE5AB /* CustomCollectionViewController.m in Sources */,
+				449D42C01D3C6E6100EAE5AB /* CoverFlowLayout.m in Sources */,
 				449D429E1D3C6C8D00EAE5AB /* ViewController.m in Sources */,
 				449D429B1D3C6C8D00EAE5AB /* AppDelegate.m in Sources */,
 				449D42981D3C6C8D00EAE5AB /* main.m in Sources */,

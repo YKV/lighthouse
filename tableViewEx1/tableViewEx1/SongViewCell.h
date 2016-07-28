@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface SongViewCell : UITableViewCell
-@property (weak, nonatomic) IBOutlet UIImageView *postImage;
-@property (weak, nonatomic) IBOutlet UILabel *postTitle;
-@property (weak, nonatomic) IBOutlet UILabel *postDescription;
+@property (weak, nonatomic) IBOutlet UIImageView *image;
+@property (weak, nonatomic) IBOutlet UILabel *artist;
+@property (weak, nonatomic) IBOutlet UILabel *title;
+
 
 @end
